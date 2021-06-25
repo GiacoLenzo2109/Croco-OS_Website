@@ -1,4 +1,3 @@
-import react from 'react';
 import styled, { keyframes } from 'styled-components';
 
 export const AboutSection = styled.div`

@@ -1,8 +1,6 @@
 import React from 'react';
 import {
     SidebarContainer,
-    Icon, 
-    CloseIcon,
     SidebarMenu,
     SidebarLink,
     SidebarBtn,
@@ -23,7 +21,7 @@ const Sidebar = ({isOpen, setOpen}) => {
                 </SidebarMenu>
                 <SidebarBtn>
                     <SidebarBtnLink to='/gitlab'>
-                        <img src={gitlab} width="55"/>
+                        <img src={gitlab} width="55" alt="gitlab icon"/>
                     </SidebarBtnLink>
                 </SidebarBtn>
             </SidebarWrapper>

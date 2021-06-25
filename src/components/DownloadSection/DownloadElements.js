@@ -1,4 +1,3 @@
-import react from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
@@ -16,7 +15,6 @@ export const DownloadContainer = styled.div`
 
     border-radius: 35%;
     margin-top: 25px;
-    //background-color: #6600cc;
 
     padding: 50px;
 `;

@@ -14,7 +14,6 @@ import {
   NavGitLabBtnLink,
   HamburgerMenu
 } from './NavbarElements';
-import Sidebar from '../Sidebar';
 
 const Navbar = ({isOpen, setOpen}) => {
     return (
@@ -23,7 +22,7 @@ const Navbar = ({isOpen, setOpen}) => {
             <NavContainer>
             <NavLogo>
                 <NavLogoBtnLink to='/' activeStyle>
-                        <img src={croco}/>
+                        <img src={croco} alt="croco logo"/>
                 </NavLogoBtnLink>
                 <NavCroco to='/'>Croco-OS</NavCroco>
             </NavLogo>
@@ -40,7 +39,7 @@ const Navbar = ({isOpen, setOpen}) => {
             </NavMenu>
             <NavGitLabBtn>
                 <NavGitLabBtnLink to='/gitlab' activeStyle>
-                        <img src={gitlab} width="55"/>
+                        <img src={gitlab} width="55" alt="gitlab icon"/>
                 </NavGitLabBtnLink>
             </NavGitLabBtn>
 

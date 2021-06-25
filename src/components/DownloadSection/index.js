@@ -7,7 +7,6 @@ import {DownloadSection,
         DownloadBtnLink,
         DownloadBtn} from './DownloadElements'
 
-import laptop from '../../images/notebook.svg'
 import croco from '../../images/logo/croco.png'
 
 function index() {

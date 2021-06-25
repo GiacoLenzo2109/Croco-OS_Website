@@ -35,11 +35,11 @@ function index() {
            <HeroHome>
                <center>
                     <Laptop>
-                        <img class="notebook" src={notebook}/>
-                        <img class="bg" src={bg}/>
+                        <img class="notebook" src={notebook} alt="notebook"/>
+                        <img class="bg" src={bg} alt="background"/>
                         <LogoLoading>
                             <Logos>
-                                <img class="croco" src={croco}/>
+                                <img class="croco" src={croco} alt="croco logo"/>
                                 {/* <img class="tux" src={tux}/> */}
                             </Logos>
                             <Loader/>
