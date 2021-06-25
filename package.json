@@ -1,5 +1,6 @@
 {
-  "name": "website-react",
+  "homepage": "https://croco-os.gitlab.io/website/croco-os_website",
+  "name": "croco-os_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
