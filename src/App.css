@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    max-width: 100%;
+    height: 100%;
+    min-width: 320px;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: greyscale;
+}
+
+img{
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
