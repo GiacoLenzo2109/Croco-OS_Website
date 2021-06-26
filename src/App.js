@@ -3,13 +3,13 @@ import './App.css';
 import Home from './pages/index';
 import Download from './pages/download'
 import About from './pages/about'
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Fonts from './fonts/fonts'
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Fonts />
       <Switch>
         <Route exact path='/'>
@@ -26,7 +26,7 @@ function App() {
           return null;
           }}/>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
